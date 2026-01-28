@@ -188,8 +188,6 @@
       <button type="button" id="calculateBtn" onclick="calculateTotals()">Calculate</button>
       <button type="button" onclick="SubForm()">Submit</button>
       <button type="button" onclick="resetForm()">Reset</button>
-      <button type="button" onclick="clockIn()">Clock In</button>
-      <button type="button" onclick="clockOut()">Clock Out</button>
     </div>
   </form>
   <div id="historyModal" class="modal">
