@@ -2,55 +2,71 @@ body, h2, h3, form, label, p, button, select, input {
   font-size: 16px;
   margin-right: 10px;
 }
+
 label {
   display: block;
   margin-bottom: 5px;
 }
+
 body, h2, h3, form {
   text-align: center;
 }
+
 p {
   text-align: center;
   margin: 0;
 }
+
 button {
   margin-top: 10px;
   margin-right: 5px;
 }
+
 body, h2, h3 {
   font-weight: bold;
 }
+
 h2 {
-  color: cyan; /* Set Pacific Bluffs header to cyan */
+  color: #00ffff; /* Neon shop sign cyan */
 }
+
 body {
-  background-image: url('pb.png');
+  /* MECHANIC SHOP BACKGROUND (GARAGE) */
+  background-image: url('https://images.unsplash.com/photo-1515923152115-758a6b16f1a0?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #f0f0f0; /* Fallback color */
-  color: #ffffff; /* White text for better contrast */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+
+  background-color: #111;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
 }
+
+/* Button layout */
 .button-group {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-/* Optional: Add a semi-transparent overlay for better readability */
+
+/* MECHANIC SHOP PANEL */
 form {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  background: rgba(10, 10, 10, 0.75); /* Dark garage overlay */
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   max-width: 600px;
   margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .history-button {
   position: absolute;
   top: 10px;
   right: 10px;
 }
+
 .history-button button {
   background: none;
   border: none;
@@ -60,9 +76,12 @@ form {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   padding: 5px;
 }
+
 .history-button button:hover {
-  color: #00ffff; /* Cyan on hover to match h2 */
+  color: #00ffff;
 }
+
+/* MODAL */
 .modal {
   display: none;
   position: fixed;
@@ -72,35 +91,41 @@ form {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
 }
+
 .modal-content {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(15, 15, 15, 0.9);
   margin: 15% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #444;
   width: 80%;
   max-width: 600px;
-  border-radius: 10px;
+  border-radius: 12px;
   color: #ffffff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
 }
+
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
   color: #fff;
-  text-decoration: none;
   cursor: pointer;
 }
+
+/* HISTORY LOG */
 #historyContent {
   text-align: left;
   max-height: 400px;
   overflow-y: auto;
 }
+
 #historyContent p {
   margin: 10px 0;
   text-align: left;
