@@ -177,11 +177,10 @@
       <option value="0">No Discount</option>
     </select>
     <div style="margin-bottom: 30px;"></div>
-    <label for="employeeName">Employee Name:</label>
+    <label for="employeeName">Customer Name:</label>
     <input type="text" id="employeeName" required>
     <div style="margin-bottom: 30px;"></div>
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (10%): $<span id="commission"></span></p>
     <div style="margin-bottom: 30px;"></div>
     <div class="button-group">
       <button type="button" id="calculateBtn" onclick="calculateTotals()">Calculate</button>
