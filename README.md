@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pacific Bluffs</title>
+  <title>Los Santos Steel Works</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
@@ -12,7 +12,7 @@
   <div class="history-button">
     <button type="button" id="historyBtn" title="Order History"><i class="fas fa-history"></i></button>
   </div>
-  <h2>Pacific Bluffs</h2>
+  <h2>Los Santos Steel Works</h2>
   <form id="menuForm">
     <h3>Service Items</h3>
     <label>
