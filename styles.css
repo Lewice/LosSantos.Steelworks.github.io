@@ -27,40 +27,44 @@ body, h2, h3 {
 }
 
 h2 {
-  color: #00ffff; /* Neon shop sign cyan */
+  color: #00ffff; /* Neon cyan accent */
 }
 
 body {
-  /* MECHANIC SHOP BACKGROUND (GARAGE) */
-  background-image: url('https://images.unsplash.com/photo-1515923152115-758a6b16f1a0?auto=format&fit=crop&w=1920&q=80');
+  /* DARK MECHANIC SHOP BACKGROUND */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
+    url('https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1920&q=80');
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  background-color: #111;
+  background-color: #0b0b0b;
   color: #ffffff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
 }
 
-/* Button layout */
+/* BUTTON GROUP */
 .button-group {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-/* MECHANIC SHOP PANEL */
+/* DARK GARAGE PANEL */
 form {
-  background: rgba(10, 10, 10, 0.75); /* Dark garage overlay */
-  padding: 20px;
+  background: rgba(5, 5, 5, 0.85);
+  padding: 22px;
   border-radius: 12px;
   max-width: 600px;
   margin: 0 auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* HISTORY BUTTON */
 .history-button {
   position: absolute;
   top: 10px;
@@ -73,8 +77,8 @@ form {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   padding: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .history-button button:hover {
@@ -91,23 +95,23 @@ form {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .modal-content {
-  background-color: rgba(15, 15, 15, 0.9);
+  background-color: rgba(8, 8, 8, 0.95);
   margin: 15% auto;
   padding: 20px;
-  border: 1px solid #444;
+  border: 1px solid #333;
   width: 80%;
   max-width: 600px;
   border-radius: 12px;
   color: #ffffff;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 .close {
-  color: #aaa;
+  color: #888;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -115,11 +119,11 @@ form {
 
 .close:hover,
 .close:focus {
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 
-/* HISTORY LOG */
+/* HISTORY CONTENT */
 #historyContent {
   text-align: left;
   max-height: 400px;
