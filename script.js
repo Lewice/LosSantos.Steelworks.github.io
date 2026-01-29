@@ -26,7 +26,7 @@ $(document).ready(function () {
         console.warn(`Skipping item: Invalid price (${price}) or quantity (${quantity})`);
       }
     });
-    const commission = total * 0.1;
+    const commission = total * 0.0;
     $('#total').text(total.toFixed(2));
     $('#commission').text(commission.toFixed(2));
     console.log(`Final Total: ${total.toFixed(2)}, Commission: ${commission.toFixed(2)}`); // Debug: Log final results
@@ -58,10 +58,9 @@ $(document).ready(function () {
         const itemsList = orderItems.map(item => `${item.quantity}x ${item.name}`).join('<br>');
         historyContent.append(
           `<p><strong>Order #${index + 1}</strong><br>
-          Employee: ${order['Employee Name']}<br/>
+          Employee: ${order['Customer Name']}<br/>
           Time: ${order['Timestamp']}<br>
           Total: $${order['Total']}<br>
-          Commission: $${order['Commission']}<br>
           Discount: ${order['Discount Applied']}%<br>
           Items:<br>${itemsList}</p>`
         );
@@ -300,4 +299,5 @@ $(document).ready(function () {
     }
   });
 });
+
 
