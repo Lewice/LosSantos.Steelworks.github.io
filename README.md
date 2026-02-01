@@ -44,6 +44,10 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
+      <input type="checkbox" class="menu-item" data-price="500"> tire replacement - 500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
       <input type="checkbox" class="menu-item" data-price="1000"> performance parts - 1,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
@@ -71,10 +75,7 @@
       <input type="checkbox" class="menu-item" data-price="100"> cleaning kit - 100 
       <input type="number" class="quantity" value="1" min="1">
     </label>		
-    <label>
-      <input type="checkbox" class="menu-item" data-price="750"> EV Battery - 750
-      <input type="number" class="quantity" value="1" min="1">
-    </label>		
+		
     <label>
       <input type="checkbox" class="menu-item" data-price="750"> tire smoke kit 750
       <input type="number" class="quantity" value="1" min="1">
@@ -90,10 +91,7 @@
 	
 	<h3>Tires</h3>
 
-    <label>
-      <input type="checkbox" class="menu-item" data-price="500"> tire replacement - 500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
     <label>
       <input type="checkbox" class="menu-item" data-price="1000"> slick tires - 1,000
       <input type="number" class="quantity" value="1" min="1">
@@ -121,14 +119,47 @@
       <input type="checkbox" class="menu-item" data-price="80"> 5.56 Bullet - $80
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="60"> .45 Acp Bullet - $60
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="60"> 10mm Bullet - $60
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="60"> .50ae Bullet - $60
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="60"> Shotgun Ammo - $60
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> 7.62 Bullet - $80
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
 	
-	<h3>Engine</h3>	
-	
-	
+	<h3>EV Parts</h3>	
     <label>
       <input type="checkbox" class="menu-item" data-price="750"> EV Motor - 750
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="750"> EV Coolant - 750
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="750"> EV Battery - 750
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+	
+	<h3>Engine</h3>	
+	
+	
+
     <label>
       <input type="checkbox" class="menu-item" data-price="10000"> v6 engine - 10,000
       <input type="number" class="quantity" value="1" min="1">
