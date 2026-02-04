@@ -165,11 +165,11 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="10000"> v8 engine - 10,000
+      <input type="checkbox" class="menu-item" data-price="15000"> v8 engine - 15,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="10000"> v12 engine - 10,000
+      <input type="checkbox" class="menu-item" data-price="20000"> v12 engine - 20,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
